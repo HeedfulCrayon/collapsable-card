@@ -2,3 +2,9 @@ default_config:
 lovelace:
   mode: yaml
 demo:
+homeassistant:
+http:
+  trusted_proxies:
+    - 127.0.0.1
+    - ::1
+    - 172.16.0.0/12

@@ -54,3 +54,12 @@ cards:
       - entity: sensor.ross_work_laptop_is_on
     show_header_toggle: false
 ```
+
+## Development
+You can develop this using github codespaces or vscode devcontainers
+
+After starting the container you can run `npm install` to install necessary packages.  Once that completes you can run `npm start` to serve up your custom card.
+
+To start the home assistant container, open a new shell in your devcontainer and run `container start`.
+
+NOTE: if you are using github codespaces, you need to set the WORKSPACE_DIRECTORY variable by running this command first`export WORKSPACE_DIRECTORY=/workspaces/collapsable-card`

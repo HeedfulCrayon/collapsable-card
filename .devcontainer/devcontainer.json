@@ -7,6 +7,7 @@
 		"5000:5000",
 		"8123:8123"
 	],
+	"onCreateCommand": "apt update && apt upgrade && apt install npm",
 	"postCreateCommand": "container install",
 	"extensions": [
 		"ms-python.python",
